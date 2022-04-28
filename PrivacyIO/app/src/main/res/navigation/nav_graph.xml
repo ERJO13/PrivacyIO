@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.privacyio.FirstFragment"
+        android:label="@string/first_menu"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_opcionMenPpasos"
+            app:destination="@id/OpcionMenPpasos"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_FirstFragment_to_opcionMenPorQue"
+            app:destination="@id/opcionMenPorQue"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_FirstFragment_to_opcionMenTrack"
+            app:destination="@id/opcionMenTrack"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_FirstFragment_to_opcionMenSoft"
+            app:destination="@id/opcionMenSoft"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/OpcionMenPpasos"
+        android:name="com.example.privacyio.OpcionMenPpasos"
+        android:label="@string/lbl_ppasos"
+        tools:layout="@layout/fragment_opcion_men_ppasos"/>
+    <fragment
+        android:id="@+id/opcionMenPorQue"
+        android:name="com.example.privacyio.OpcionMenPorQue"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_opcion_men_por_que" />
+    <fragment
+        android:id="@+id/opcionMenTrack"
+        android:name="com.example.privacyio.OpcionMenTrack"
+        android:label="@string/lbl_track"
+        tools:layout="@layout/fragment_track" />
+    <fragment
+        android:id="@+id/opcionMenSoft"
+        android:name="com.example.privacyio.OpcionMenSoft"
+        android:label="@string/lbl_soft"
+        tools:layout="@layout/fragment_opcion_men_soft" />
+</navigation>

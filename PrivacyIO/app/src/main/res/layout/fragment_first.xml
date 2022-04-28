@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/txt_opcion_why"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_txt_why"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+             />
+
+        <Button
+            android:id="@+id/btn_opcion_why"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_btn_why"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/txt_opcion_why"
+            />
+
+        <TextView
+            android:id="@+id/txt_ppasos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_txt_ppasos"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/btn_opcion_why"
+             />
+
+        <Button
+            android:id="@+id/btn_opcion_ppasos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_btn_ppasos"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/txt_ppasos"
+             />
+
+        <TextView
+            android:id="@+id/txt_track"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_txt_track"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/btn_opcion_ppasos"
+             />
+
+        <Button
+            android:id="@+id/btn_opcion_track"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_btn_track"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/txt_track"
+             />
+
+        <TextView
+            android:id="@+id/txt_soft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_txt_soft"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/btn_opcion_track"
+            tools:layout_editor_absoluteX="-27dp" />
+
+        <Button
+            android:id="@+id/btn_opcion_soft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/btn_color_men1"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/pri_btn_soft"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/txt_soft"
+            tools:layout_editor_absoluteX="-27dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="211dp"
+            android:layout_height="178dp"
+            android:layout_marginTop="64dp"
+            android:contentDescription="Icono de seccion"
+            android:src="@drawable/principal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

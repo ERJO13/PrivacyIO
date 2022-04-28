@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">PrivacyIO</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="second_fragment_label">La importancia de la privacidad</string>
+    <string name="lbl_ppasos">Conceptos basicos</string>
+    <string name="lbl_track">¿Como te rastrean?</string>
+    <string name="lbl_soft">¿Como te puedes proteger?</string>
+
+
+
+    <!-- Menu principal -->
+    <string name="pri_txt_why">Introducción</string>
+    <string name="pri_btn_why">La importancia de la privacidad</string>
+    <string name="pri_txt_ppasos">Retomando el control</string>
+    <string name="pri_btn_ppasos">Conceptos basicos</string>
+    <string name="pri_txt_track">Rastreadores importantes</string>
+    <string name="pri_btn_track">¿Como te rastrean?</string>
+    <string name="pri_txt_soft">Herramientas utiles</string>
+    <string name="pri_btn_soft">¿Como te puedes proteger?</string>
+    <string name="first_menu">El control es tuyo</string>
+
+
+    <!-- Opcion why-->
+    <string name="btn_why_reason1">¿Por que es importante la privacidad en un telefono movil?</string>
+    <string name="txt_why_reason1"><p>En la vida real las personas no suelen contar todo lo que hacen con cualquier persona siempre existe algo que no se desea compartir, al punto que psicólogos, doctores y abogados tienen prohibido divulgar lo que un cliente les hace saber o de lo contrario se atienen a consecuencias penales, pero no solo ellos guardan discreción, sino que es una acción que todos realizamos a diario con el simple uso de puertas, paredes y cortinas para no hacer publico lo que hacemos dentro de nuestra casa.
+
+        Pese a lo anterior al estar online muchos datos de nuestra vida diaria son registrados por varias empresas y gobiernos, los cuales sacan provecho de estos datos ya sea económica o socialmente, pero algo más inquietante es que pueden usar dichos datos en nuestra contra en cualquier momento, ya que los registros sobre nuestra actividad online pueden ser almacenados en enormes cantidades e indefinidamente.
+    </p></string>
+    <string name="btn_why_reason2">Yo no tengo nada que ocultar</string>
+    <string name="txt_why_reason2"><p> Todos tenemos información personal o de terceros que no deseamos que sea publica, no necesariamente de índole sexual o criminal como muchos pueden argumentar, sino que esa información puede ser sobre enfermedades físicas o psicológicas padecidas, transacciones económicas, miedos, traumas, mensajes entre familiares o parejas, registros bancarios, lugares frecuentes que se visitan, números de familiares y amigos, etc. </p></string>
+    <string name="btn_why_reason3">Se necesita ser un experto para configurar un dispositivo</string>
+    <string name="txt_why_reason3"><p>Si bien el ser un experto ayuda bastante, esto no es un buen argumento pues nadie nace sabiendo y al igual que el ser analfabeto da serias desventajas sociales, el analfabeto tecnológico también puede ser bastante negativo pues se confía ciegamente en un tercero que no usara la información que recopile para algo negativo. Por lo tanto esta aplicación busca ser una introducción que brinde la información básica necesaria para que las personas retomen el control sobre su propia información</p></string>
+    <string name="btn_why_reason4">Esto es para paranoicos</string>
+    <string name="txt_why_reason4"><p>No pues esto debería de ser un tema que no tiene la importancia necesaria, pues así como no se permite que un extraño entre a tu casa y revise tus cosas, tampoco se le debería de dar dicha libertar a empresas y gobiernos de registrar literalmente todo lo que hacemos en línea pues mucha de la información que mandamos o recibimos puede ser vista y rastreada por muchas entes.</p></string>
+    <!-- Opcion conceptos -->
+    <string name="btn_concepto1">¿Qué es seguridad?</string>
+    <string name="txt_concepto1"><p>Este concepto refiere a la capacidad de resistencia de una plataforma como Android para resistir ataques de terceros.</p></string>
+    <string name="btn_concepto2">¿Qué es privacidad?</string>
+    <string name="txt_concepto2"><p>Este concepto refiere a quien tiene derecho a ver o hacer uso de cierta información, para ser más claros refiere a que tan restringido es el acceso a la información (como un mensaje) mientras se traslada de un equipo a otro para que solo sea visto por las partes interesadas (usted y un amigo por ejemplo). </p></string>
+    <string name="btn_concepto3">¿Qué es anonimidad?</string>
+    <string name="txt_concepto3"><p>Esto refiere al estado de que los datos que se envían por internet no estén relacionados con la IP  de la persona que la envió con el fin de que su actividad no sea utilizada para llegar hasta la persona en cuestión</p></string>
+    <string name="btn_concepto4">¿Qué es la encripcion?</string>
+    <string name="txt_concepto4"><p>Este refiere al proceso técnico en el que información es convertida a un código secreto para ocultar los datos que se envíen, reciban o almacenen.</p></string>
+    <string name="btn_concepto5">¿Qué es un DNS?</string>
+    <string name="txt_concepto5"><p>En español esto refiere al sistema de nombres de dominio, se usa para traducir nombres como www.paginaweb.com a algo que las computadoras puedan leer y como solo pueden leer números el nombre se traduce a IPs. Como los equipos encargados de hacer esto son de empresas externas esto provoca que ellas puedan registrar cada pagina a la que se quiera acceder</p></string>
+    <string name="btn_concepto6">¿Qué es HTTP/HTTPS?</string>
+    <string name="txt_concepto6"><p>El Protocolo de transferencia de hipertexto sirve para hacer conexiones desde un celular o computadora a una página en internet, el problema es que el flujo de datos no esta cifrado y cualquiera  (con el conocimiento técnico) puede ver lo que se esta haciendo, por ello se sugiere usar HTTPS que es cifrado</p></string>
+    <string name="btn_concepto7">¿Qué es una IP?</string>
+    <string name="txt_concepto7"><p>Las direcciones IP son un numero único e irrepetible con el cual se identifica a cualquier equipo que se conecta a una red como internet</p></string>
+    <string name="btn_concepto8">¿Qué es una VPN?</string>
+    <string name="txt_concepto8"><p>Las redes privadas virtuales por sus siglas en ingles permiten al usuario configurar un “túnel” cifrado para poder realizar actividades en internet de manera más privada, disminuyendo el numero de personas que pueden ver dicha actividad al estar conectados a una red pública o poco segura</p></string>
+    <string name="btn_concepto9">¿Qué es un proxie?</string>
+    <string name="txt_concepto9"><p>Puede ser usado como intermediario entre una persona conectada a internet y la pagina objetivo como Google, es decir que si la persona hace una búsqueda por medio del proxie Google no vera a la persona en cuestión sino al proxie como el emisor</p></string>
+    <string name="btn_concepto10">¿Qué es FOSS?</string>
+    <string name="txt_concepto10"><p></p>Este refiere a una categoría de software que se basa en libertades para el usuario, que se pueden resumir en que el software sea libre y de código abierto con el fin de que pueda ser usado, estudiado y modificado por cualquiera, con el fin de mejorar a través de la contribución de una comunidad y eliminar la posibilidad de abuso o malas prácticas</string>
+    <string name="btn_concepto11">¿Qué es MITM?</string>
+    <string name="txt_concepto11"><p></p>Esto se puede traducir como “Hombre en el medio” que es un ataque donde un tercero interfiere la conexión entre un usuario y una pagina de internet, para interceptar todo lo que se envía o reciba en dicha conexión</string>
+    <string name="btn_concepto12">¿Qué es un spyware?</string>
+    <string name="txt_concepto12"><p>Esto normalmente refiere a un malware que registra en secreto todas las actividades del usuario de determinado software, esto se puede dar inadvertidamente dentro de un software con derechos reservados como el caso de Tiktok que fue prohibida por el gobierno de la India por mandar información a servidores chinos</p></string>
+    <!-- Opcion trackers-->
+    <string name="btn_track1">Familia Google</string>
+    <string name="txt_track1"><p>Estos pueden ser usados para registrar actividad y mostrar publicidad personalizada es decir basada en las búsquedas realizadas como
+
+\n\ngoogle-ad.
+\ngoogle-ads.$domain=~youston.agency
+\ngoogle-ads/
+\ngoogle-adsense.
+\ndoubleclick-plugin/
+\ndoubleclick.js
+\ndoubleclick.min.js
+\nGoogle FireBase Analytics
+\nGoogle AdMob
+\nGoogle Play Install Referrer
+\najax-ad/*
+\najax-advert-
+\najax-advert.
+\najax/ad/*
+\najax/ads_
+\najaxAd?
+\najaxads.
+\ngoogleapi.club
+\ngoogletagservices.com
+\nfa-google-ad
+\ngstaticadssl.l.google.com^$~font,third-party,~xmlhttprequest
+\ncloud.google.com^$~third-party
+
+\n\nEstos son solo algunos, pero existen muchos mas agregados dentro de aplicaciones o paginas web
+</p></string>
+    <string name="btn_track2">Familia Facebook</string>
+    <string name="txt_track2"><p>Estos pueden ser usados para registrar actividad y mostrar publicidad personalizada es decir basada en las búsquedas realizadas como
+
+\n\nf_Ads
+\na-advertising
+\nfa-google-ad
+\nfacebook-ad
+\nfbCalendarAds
+\nfbPhotoSnowboxAds
+\nfblockad
+\nfbs-ad--ntv-home-wrapper
+\nfbs-ad--progressive
+\nfbs-ad--top-wrapper
+\nfbs-ad--topx-wrapper
+\nf-ad
+\nf-item-ad
+\nfacebook.com/audiencenetwork/$third-party
+
+\n\nEstos son solo algunos, pero existen muchos mas agregados dentro de aplicaciones o páginas web
+</p></string>
+    <string name="btn_track3">Familia Amazon</string>
+    <string name="txt_track3"><p>Estos pueden ser usados para registrar actividad y mostrar publicidad personalizada es decir basada en las búsquedas realizadas como
+
+\n\nssl-images-amazon.com/images/*/DAsf-
+\nssl-images-amazon.com/images/*/MAsf-
+\npacontainer.s3.amazonaws.com^
+\nws.amazon.*/widgets/$third-party
+\namazonaws (ad-fix)
+\ns3.amazonaws.com^*/f10ac63cd7
+\ns3.amazonaws.com^*/secure.js
+\namazon.com/aan/$subdocument
+\namazonaws.com/cdn.mobverify.com
+\ncloudfront.net^$domain=igg-games.com
+
+
+\n\nEstos son solo algunos, pero existen muchos mas agregados dentro de aplicaciones o páginas web
+</p></string>
+    <string name="btn_track4">Familia Verizon</string>
+    <string name="txt_track4"><p>Estos pueden ser usados para registrar actividad y mostrar publicidad personalizada es decir basada en las búsquedas realizadas como
+
+\n\nverizonwireless.com#@#.contentAds
+\nsignin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
+\nverizonwireless.com#@#.contentAds
+\nVerizon-ads
+\ntumblr.com##.Qrht9
+\ntumblr.com##.XJ7bf
+\ntumblr.com##.Yc2Sp
+\ntumblr.com##.njwip
+\nVerizon ads
+
+\n\nEstos son solo algunos, pero existen muchos mas agregados dentro de aplicaciones o páginas web
+</p></string>
+    <string name="btn_track5">Familia Microsoft</string>
+    <string name="txt_track5"><p>Estos pueden ser usados para registrar actividad y mostrar publicidad personalizada es decir basada en las búsquedas realizadas como
+
+\n\nteams.microsoft.com^$generichide
+\nBing.com
+\nbing.com##.b_poleContent > #ifeu
+\nbing.com##.ra_car_block
+\nmsn.com##.bing-native-ad
+\nmsn.com##.dynamicRRWrapper
+\nmsn.com##.intra-article-ad
+\nmsn.com##.medianetintraarticlenativead
+\nmsn.com##.nativeadserversidecontentmodule
+\nmsn.com##.sameoab_ad_container
+\nmsn.com##.serversidenativead.secondary
+\nmsn.com##[class^="nativeAd"]
+\nmsn.com##a.nativead[target="_blank"]
+\nmsn.com##div[class^="articlePage_topBannerAdContainer_"]
+\nmsn.com##div[data-section-id="sponsored.stripe.shopping"]
+\n!Bing
+\nbing.com##.ad_sc
+\nbing.com##.adsMvC
+\nbing.com##.b_ad
+\nbing.com##.b_adBottom
+\nbing.com##.b_adLastChild
+\nbing.com##.mapsTextAds
+\nbing.com##.pa_carousel_mlo
+\nbing.com##.pa_sb
+\nbing.com##.productAd
+\nbing.com##[id$="adsMvCarousel"]
+\nbing.com##a[href*="/aclick?ld="]
+\n\nEstos son solo algunos, pero existen muchos mas agregados dentro de aplicaciones o páginas web
+</p></string>
+    <!-- Opcion software-->
+    <string name="btn_soft1">Motores de busqueda</string>
+    <string name="txt_soft1"><p>Google y Bing no son para nada recomendables, por lo tanto, se recomienda el uso de otros servicios como
+
+\n\nDuckDuckGo
+\n\nIxquick
+</p></string>
+    <string name="btn_soft2">Navegadores</string>
+    <string name="txt_soft2">En celulares se recomienda el uso de los siguientes navegadores los primeros 2 se sugiere el uso del complemento UBlock
+
+\n\nFireFox
+\n\nMull que es una variante FOSS de Firefox pero mas enfocada a la privacidad
+\n\nBromite que es un navegador FOSS basado en Chromium
+<p></p></string>
+    <string name="btn_soft3">DNS</string>
+    <string name="txt_soft3"><p>Se recomienda el uso de
+
+\n\nOpenNIC Project: que según su pagina de internet  es una organización de voluntarios para proveer una red DNS alternativa
+\n\nUncensoredDNS: servicio provisto por Thomas Steen Rasmussen enfocado a la privacidad
+</p></string>
+    <string name="btn_soft4">VPN</string>
+    <string name="txt_soft4"><p> Este es un apartado bastante complejo pues depende del nivel del objetivo y necesidades del usuario, pero si se advierte que ninguna VPN gratuita es segura pues como sentencia la frase “Cuando la mercancía es gratis, tu eres el pago”, pero se recomienda
+
+\n\nOpenVPN: este servicio de código abierto (no gratuito) es la base de muchas VPN
+\n\nMullvad VPN: Es una VPN altamente enfocada a la privacidad al punto de que se puede pagar en efectivo para no generar registro alguno, también es auditada externamente
+</p></string>
+    <string name="btn_soft5">Apps FOSS recomendadas</string>
+    <string name="txt_soft5"><p>Para redes sociales existen algunas opciones FOSS pero cabe aclarar que los servicios de Facebook pueden castigar con la cancelación de la cuenta por no usar la app oficial, pero se gana privacidad y la eliminación de publicidad
+
+\n\nInstagram -> Barinsta
+\n\nFacebook -> Frost, Friendica, Diaspora
+\n\nTwitter -> Twidere o Fritter
+\n\nReddit -> Infinity
+\n\nYoutube -> RedPipe, LibreTube
+\n\nWhatsapp, Telegram -> Signal
+\n\nGoogle Play Store -> Aurora, F-Droid
+\n\nSMS -> QKSMS
+\n\nMedia player -> VLC
+\n\nGboard -> OpenBoard
+\n\nFile Manager ->Simple File Manager
+\n\nCamara -> Secure Camara
+</p></string>
+    <string name="btn_soft6">Apss sugeridas</string>
+    <string name="txt_soft6"><p>Se recomienda la instalación de las siguientes aplicaciones
+        \n\nTotalControl: aprocevha la tecnología VPN de Android para poder bloquear la comunicación de algunos rastreadores
+        \n\nShelter es una aplicación que te ayuda a aprovechar el perfil de trabajo de Android para aislar otras aplicaciones invasivas como Whatsapp
+        \n\nPrivacy Blur Permite difuminar partes de una fotografía antes de compartirla
+        \n\nAdGuard
+    
+
+</p></string>
+</resources>
